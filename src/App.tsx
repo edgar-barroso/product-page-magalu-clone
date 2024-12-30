@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Home } from './pages/Home';
 
@@ -10,12 +10,8 @@ function App() {
     <Router>
         <Routes>
           <Route 
-            path="/fritadeira-eletrica-sem-oleo-air-fryer-mondial-family-afn-40-bi-preto-4l-com-timer" 
+            path="/" 
             element={<Home/>} 
-          />
-          <Route 
-            path="*" 
-            element={<Navigate to="/fritadeira-eletrica-sem-oleo-air-fryer-mondial-family-afn-40-bi-preto-4l-com-timer" />} 
           />
         </Routes>
     </Router>
