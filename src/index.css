@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+ 
+}
+.arco-iris {
+    background: linear-gradient(to right, 
+      red, orange, yellow, green, blue, indigo, violet);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Cor do texto para se destacar no fundo colorido */
+    font-size: 20px;
+    text-align: center;
+  }
+.react-multi-carousel-list{
+  padding-bottom: 40px;
+}
